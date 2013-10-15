@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EE3673E180D21A70014B60B /* OBDragDropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE36736180D21A70014B60B /* OBDragDropManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0EE3673F180D21A70014B60B /* OBLongPressDragDropGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE36739180D21A70014B60B /* OBLongPressDragDropGestureRecognizer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0EE36740180D21A70014B60B /* UIView+OBDropZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3673B180D21A70014B60B /* UIView+OBDropZone.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0EE36741180D21A70014B60B /* UIGestureRecognizer+OBDragDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3673D180D21A70014B60B /* UIGestureRecognizer+OBDragDrop.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0EE36744180D21B90014B60B /* AdditionalSourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE36743180D21B90014B60B /* AdditionalSourcesViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0EE36747180D22E90014B60B /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE36746180D22E90014B60B /* MainController.m */; };
+		0EE3674D180D29CB0014B60B /* headImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EE3674C180D29CB0014B60B /* headImage.jpg */; };
+		0EE36750180D31B90014B60B /* FileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3674F180D31B90014B60B /* FileView.m */; };
+		0EE36753180D33E50014B60B /* FileUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE36752180D33E50014B60B /* FileUpload.m */; };
+		0EE36756180D35D20014B60B /* FriendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE36755180D35D20014B60B /* FriendView.m */; };
+		0EE36759180D499F0014B60B /* DargViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE36758180D499F0014B60B /* DargViewController.m */; };
 		0EF303BF180AE6FB00284DE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF303BE180AE6FB00284DE6 /* Foundation.framework */; };
 		0EF303C1180AE6FB00284DE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF303C0180AE6FB00284DE6 /* CoreGraphics.framework */; };
 		0EF303C3180AE6FB00284DE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF303C2180AE6FB00284DE6 /* UIKit.framework */; };
 		0EF303C9180AE6FB00284DE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EF303C7180AE6FB00284DE6 /* InfoPlist.strings */; };
-		0EF303CB180AE6FB00284DE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF303CA180AE6FB00284DE6 /* main.m */; };
-		0EF303CF180AE6FB00284DE6 /* dragdropshareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF303CE180AE6FB00284DE6 /* dragdropshareAppDelegate.m */; };
+		0EF303CB180AE6FB00284DE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF303CA180AE6FB00284DE6 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0EF303CF180AE6FB00284DE6 /* dragdropshareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF303CE180AE6FB00284DE6 /* dragdropshareAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0EF303D1180AE6FB00284DE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF303D0180AE6FB00284DE6 /* Images.xcassets */; };
 		0EF303D8180AE6FB00284DE6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF303D7180AE6FB00284DE6 /* XCTest.framework */; };
 		0EF303D9180AE6FB00284DE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF303BE180AE6FB00284DE6 /* Foundation.framework */; };
 		0EF303DA180AE6FB00284DE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF303C2180AE6FB00284DE6 /* UIKit.framework */; };
 		0EF303E2180AE6FB00284DE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EF303E0180AE6FB00284DE6 /* InfoPlist.strings */; };
 		0EF303E4180AE6FB00284DE6 /* DragDropFileShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF303E3180AE6FB00284DE6 /* DragDropFileShareTests.m */; };
+		0EF303EE180AE78B00284DE6 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF303ED180AE78B00284DE6 /* FacebookSDK.framework */; };
+		0EF303F1180AEB1400284DE6 /* FirstTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF303F0180AEB1400284DE6 /* FirstTestViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0EF303F6180AFCF500284DE6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF303F5180AFCF500284DE6 /* SystemConfiguration.framework */; };
+		0EF303F8180AFD1D00284DE6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF303F7180AFD1D00284DE6 /* MobileCoreServices.framework */; };
+		0EF303FA180AFD3A00284DE6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF303F9180AFD3A00284DE6 /* libz.dylib */; };
+		0EF303FC180AFD8400284DE6 /* arcstreamsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF303FB180AFD8400284DE6 /* arcstreamsdk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +49,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EE36734180D21A70014B60B /* OBDragDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDragDrop.h; sourceTree = "<group>"; };
+		0EE36735180D21A70014B60B /* OBDragDropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDragDropManager.h; sourceTree = "<group>"; };
+		0EE36736180D21A70014B60B /* OBDragDropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDragDropManager.m; sourceTree = "<group>"; };
+		0EE36737180D21A70014B60B /* OBDragDropProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDragDropProtocol.h; sourceTree = "<group>"; };
+		0EE36738180D21A70014B60B /* OBLongPressDragDropGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBLongPressDragDropGestureRecognizer.h; sourceTree = "<group>"; };
+		0EE36739180D21A70014B60B /* OBLongPressDragDropGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBLongPressDragDropGestureRecognizer.m; sourceTree = "<group>"; };
+		0EE3673A180D21A70014B60B /* UIView+OBDropZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+OBDropZone.h"; sourceTree = "<group>"; };
+		0EE3673B180D21A70014B60B /* UIView+OBDropZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+OBDropZone.m"; sourceTree = "<group>"; };
+		0EE3673C180D21A70014B60B /* UIGestureRecognizer+OBDragDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+OBDragDrop.h"; sourceTree = "<group>"; };
+		0EE3673D180D21A70014B60B /* UIGestureRecognizer+OBDragDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+OBDragDrop.m"; sourceTree = "<group>"; };
+		0EE36742180D21B90014B60B /* AdditionalSourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionalSourcesViewController.h; sourceTree = "<group>"; };
+		0EE36743180D21B90014B60B /* AdditionalSourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionalSourcesViewController.m; sourceTree = "<group>"; };
+		0EE36745180D22E90014B60B /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		0EE36746180D22E90014B60B /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		0EE3674C180D29CB0014B60B /* headImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headImage.jpg; sourceTree = "<group>"; };
+		0EE3674E180D31B90014B60B /* FileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileView.h; sourceTree = "<group>"; };
+		0EE3674F180D31B90014B60B /* FileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileView.m; sourceTree = "<group>"; };
+		0EE36751180D33E50014B60B /* FileUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUpload.h; sourceTree = "<group>"; };
+		0EE36752180D33E50014B60B /* FileUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUpload.m; sourceTree = "<group>"; };
+		0EE36754180D35D20014B60B /* FriendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendView.h; sourceTree = "<group>"; };
+		0EE36755180D35D20014B60B /* FriendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendView.m; sourceTree = "<group>"; };
+		0EE36757180D499F0014B60B /* DargViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DargViewController.h; sourceTree = "<group>"; };
+		0EE36758180D499F0014B60B /* DargViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DargViewController.m; sourceTree = "<group>"; };
 		0EF303BB180AE6FB00284DE6 /* DragDropFileShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragDropFileShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF303BE180AE6FB00284DE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EF303C0180AE6FB00284DE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +88,13 @@
 		0EF303DF180AE6FB00284DE6 /* DragDropFileShareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragDropFileShareTests-Info.plist"; sourceTree = "<group>"; };
 		0EF303E1180AE6FB00284DE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EF303E3180AE6FB00284DE6 /* DragDropFileShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragDropFileShareTests.m; sourceTree = "<group>"; };
+		0EF303ED180AE78B00284DE6 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		0EF303EF180AEB1400284DE6 /* FirstTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTestViewController.h; sourceTree = "<group>"; };
+		0EF303F0180AEB1400284DE6 /* FirstTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTestViewController.m; sourceTree = "<group>"; };
+		0EF303F5180AFCF500284DE6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0EF303F7180AFD1D00284DE6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0EF303F9180AFD3A00284DE6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0EF303FB180AFD8400284DE6 /* arcstreamsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = arcstreamsdk.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +102,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EF303FA180AFD3A00284DE6 /* libz.dylib in Frameworks */,
+				0EF303F8180AFD1D00284DE6 /* MobileCoreServices.framework in Frameworks */,
+				0EF303F6180AFCF500284DE6 /* SystemConfiguration.framework in Frameworks */,
 				0EF303C1180AE6FB00284DE6 /* CoreGraphics.framework in Frameworks */,
+				0EF303EE180AE78B00284DE6 /* FacebookSDK.framework in Frameworks */,
 				0EF303C3180AE6FB00284DE6 /* UIKit.framework in Frameworks */,
+				0EF303FC180AFD8400284DE6 /* arcstreamsdk.framework in Frameworks */,
 				0EF303BF180AE6FB00284DE6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,9 +126,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EE36733180D218F0014B60B /* OBDragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				0EE36742180D21B90014B60B /* AdditionalSourcesViewController.h */,
+				0EE36743180D21B90014B60B /* AdditionalSourcesViewController.m */,
+				0EE36734180D21A70014B60B /* OBDragDrop.h */,
+				0EE36735180D21A70014B60B /* OBDragDropManager.h */,
+				0EE36736180D21A70014B60B /* OBDragDropManager.m */,
+				0EE36737180D21A70014B60B /* OBDragDropProtocol.h */,
+				0EE36738180D21A70014B60B /* OBLongPressDragDropGestureRecognizer.h */,
+				0EE36739180D21A70014B60B /* OBLongPressDragDropGestureRecognizer.m */,
+				0EE3673A180D21A70014B60B /* UIView+OBDropZone.h */,
+				0EE3673B180D21A70014B60B /* UIView+OBDropZone.m */,
+				0EE3673C180D21A70014B60B /* UIGestureRecognizer+OBDragDrop.h */,
+				0EE3673D180D21A70014B60B /* UIGestureRecognizer+OBDragDrop.m */,
+			);
+			name = OBDragDrop;
+			sourceTree = "<group>";
+		};
 		0EF303B2180AE6FB00284DE6 = {
 			isa = PBXGroup;
 			children = (
+				0EE36733180D218F0014B60B /* OBDragDrop */,
 				0EF303C4180AE6FB00284DE6 /* DragDropFileShare */,
 				0EF303DD180AE6FB00284DE6 /* DragDropFileShareTests */,
 				0EF303BD180AE6FB00284DE6 /* Frameworks */,
@@ -96,6 +168,11 @@
 		0EF303BD180AE6FB00284DE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0EF303FB180AFD8400284DE6 /* arcstreamsdk.framework */,
+				0EF303F9180AFD3A00284DE6 /* libz.dylib */,
+				0EF303F7180AFD1D00284DE6 /* MobileCoreServices.framework */,
+				0EF303F5180AFCF500284DE6 /* SystemConfiguration.framework */,
+				0EF303ED180AE78B00284DE6 /* FacebookSDK.framework */,
 				0EF303BE180AE6FB00284DE6 /* Foundation.framework */,
 				0EF303C0180AE6FB00284DE6 /* CoreGraphics.framework */,
 				0EF303C2180AE6FB00284DE6 /* UIKit.framework */,
@@ -111,6 +188,18 @@
 				0EF303CE180AE6FB00284DE6 /* dragdropshareAppDelegate.m */,
 				0EF303D0180AE6FB00284DE6 /* Images.xcassets */,
 				0EF303C5180AE6FB00284DE6 /* Supporting Files */,
+				0EF303EF180AEB1400284DE6 /* FirstTestViewController.h */,
+				0EF303F0180AEB1400284DE6 /* FirstTestViewController.m */,
+				0EE36745180D22E90014B60B /* MainController.h */,
+				0EE36746180D22E90014B60B /* MainController.m */,
+				0EE3674E180D31B90014B60B /* FileView.h */,
+				0EE3674F180D31B90014B60B /* FileView.m */,
+				0EE36751180D33E50014B60B /* FileUpload.h */,
+				0EE36752180D33E50014B60B /* FileUpload.m */,
+				0EE36754180D35D20014B60B /* FriendView.h */,
+				0EE36755180D35D20014B60B /* FriendView.m */,
+				0EE36757180D499F0014B60B /* DargViewController.h */,
+				0EE36758180D499F0014B60B /* DargViewController.m */,
 			);
 			path = DragDropFileShare;
 			sourceTree = "<group>";
@@ -118,6 +207,7 @@
 		0EF303C5180AE6FB00284DE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0EE3674C180D29CB0014B60B /* headImage.jpg */,
 				0EF303C6180AE6FB00284DE6 /* DragDropFileShare-Info.plist */,
 				0EF303C7180AE6FB00284DE6 /* InfoPlist.strings */,
 				0EF303CA180AE6FB00284DE6 /* main.m */,
@@ -222,6 +312,7 @@
 			files = (
 				0EF303C9180AE6FB00284DE6 /* InfoPlist.strings in Resources */,
 				0EF303D1180AE6FB00284DE6 /* Images.xcassets in Resources */,
+				0EE3674D180D29CB0014B60B /* headImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +331,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE36750180D31B90014B60B /* FileView.m in Sources */,
+				0EE36744180D21B90014B60B /* AdditionalSourcesViewController.m in Sources */,
+				0EE36759180D499F0014B60B /* DargViewController.m in Sources */,
+				0EE36753180D33E50014B60B /* FileUpload.m in Sources */,
+				0EE36747180D22E90014B60B /* MainController.m in Sources */,
+				0EF303F1180AEB1400284DE6 /* FirstTestViewController.m in Sources */,
+				0EE3673E180D21A70014B60B /* OBDragDropManager.m in Sources */,
+				0EE36756180D35D20014B60B /* FriendView.m in Sources */,
+				0EE36741180D21A70014B60B /* UIGestureRecognizer+OBDragDrop.m in Sources */,
+				0EE3673F180D21A70014B60B /* OBLongPressDragDropGestureRecognizer.m in Sources */,
 				0EF303CB180AE6FB00284DE6 /* main.m in Sources */,
+				0EE36740180D21A70014B60B /* UIView+OBDropZone.m in Sources */,
 				0EF303CF180AE6FB00284DE6 /* dragdropshareAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +464,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/wangsh/Desktop/projects/DragDropFileShare,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DragDropFileShare/DragDropFileShare-Prefix.pch";
 				INFOPLIST_FILE = "DragDropFileShare/DragDropFileShare-Info.plist";
@@ -375,6 +481,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/wangsh/Desktop/projects/DragDropFileShare,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DragDropFileShare/DragDropFileShare-Prefix.pch";
 				INFOPLIST_FILE = "DragDropFileShare/DragDropFileShare-Info.plist";
@@ -444,6 +554,7 @@
 				0EF303E9180AE6FB00284DE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EF303EA180AE6FB00284DE6 /* Build configuration list for PBXNativeTarget "DragDropFileShareTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +563,7 @@
 				0EF303EC180AE6FB00284DE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
