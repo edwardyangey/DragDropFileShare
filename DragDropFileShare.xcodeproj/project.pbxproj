@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EDD9DAB180E230E00D118DA /* Cell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD9DA9180E230E00D118DA /* Cell1.m */; };
+		0EDD9DAC180E230E00D118DA /* Cell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EDD9DAA180E230E00D118DA /* Cell1.xib */; };
+		0EDD9DB1180E233700D118DA /* DownAccessory.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDD9DAD180E233700D118DA /* DownAccessory.png */; };
+		0EDD9DB2180E233700D118DA /* DownAccessory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDD9DAE180E233700D118DA /* DownAccessory@2x.png */; };
+		0EDD9DB3180E233700D118DA /* UpAccessory.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDD9DAF180E233700D118DA /* UpAccessory.png */; };
+		0EDD9DB4180E233700D118DA /* UpAccessory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDD9DB0180E233700D118DA /* UpAccessory@2x.png */; };
 		0EE3673E180D21A70014B60B /* OBDragDropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE36736180D21A70014B60B /* OBDragDropManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0EE3673F180D21A70014B60B /* OBLongPressDragDropGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE36739180D21A70014B60B /* OBLongPressDragDropGestureRecognizer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0EE36740180D21A70014B60B /* UIView+OBDropZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3673B180D21A70014B60B /* UIView+OBDropZone.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -49,6 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EDD9DA8180E230E00D118DA /* Cell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell1.h; sourceTree = "<group>"; };
+		0EDD9DA9180E230E00D118DA /* Cell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell1.m; sourceTree = "<group>"; };
+		0EDD9DAA180E230E00D118DA /* Cell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell1.xib; sourceTree = "<group>"; };
+		0EDD9DAD180E233700D118DA /* DownAccessory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownAccessory.png; sourceTree = "<group>"; };
+		0EDD9DAE180E233700D118DA /* DownAccessory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DownAccessory@2x.png"; sourceTree = "<group>"; };
+		0EDD9DAF180E233700D118DA /* UpAccessory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpAccessory.png; sourceTree = "<group>"; };
+		0EDD9DB0180E233700D118DA /* UpAccessory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UpAccessory@2x.png"; sourceTree = "<group>"; };
 		0EE36734180D21A70014B60B /* OBDragDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDragDrop.h; sourceTree = "<group>"; };
 		0EE36735180D21A70014B60B /* OBDragDropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDragDropManager.h; sourceTree = "<group>"; };
 		0EE36736180D21A70014B60B /* OBDragDropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDragDropManager.m; sourceTree = "<group>"; };
@@ -200,6 +213,9 @@
 				0EE36755180D35D20014B60B /* FriendView.m */,
 				0EE36757180D499F0014B60B /* DargViewController.h */,
 				0EE36758180D499F0014B60B /* DargViewController.m */,
+				0EDD9DA8180E230E00D118DA /* Cell1.h */,
+				0EDD9DA9180E230E00D118DA /* Cell1.m */,
+				0EDD9DAA180E230E00D118DA /* Cell1.xib */,
 			);
 			path = DragDropFileShare;
 			sourceTree = "<group>";
@@ -207,6 +223,10 @@
 		0EF303C5180AE6FB00284DE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0EDD9DAD180E233700D118DA /* DownAccessory.png */,
+				0EDD9DAE180E233700D118DA /* DownAccessory@2x.png */,
+				0EDD9DAF180E233700D118DA /* UpAccessory.png */,
+				0EDD9DB0180E233700D118DA /* UpAccessory@2x.png */,
 				0EE3674C180D29CB0014B60B /* headImage.jpg */,
 				0EF303C6180AE6FB00284DE6 /* DragDropFileShare-Info.plist */,
 				0EF303C7180AE6FB00284DE6 /* InfoPlist.strings */,
@@ -310,9 +330,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EDD9DB4180E233700D118DA /* UpAccessory@2x.png in Resources */,
+				0EDD9DB1180E233700D118DA /* DownAccessory.png in Resources */,
+				0EDD9DB2180E233700D118DA /* DownAccessory@2x.png in Resources */,
 				0EF303C9180AE6FB00284DE6 /* InfoPlist.strings in Resources */,
 				0EF303D1180AE6FB00284DE6 /* Images.xcassets in Resources */,
 				0EE3674D180D29CB0014B60B /* headImage.jpg in Resources */,
+				0EDD9DAC180E230E00D118DA /* Cell1.xib in Resources */,
+				0EDD9DB3180E233700D118DA /* UpAccessory.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EE36750180D31B90014B60B /* FileView.m in Sources */,
+				0EDD9DAB180E230E00D118DA /* Cell1.m in Sources */,
 				0EE36744180D21B90014B60B /* AdditionalSourcesViewController.m in Sources */,
 				0EE36759180D499F0014B60B /* DargViewController.m in Sources */,
 				0EE36753180D33E50014B60B /* FileUpload.m in Sources */,

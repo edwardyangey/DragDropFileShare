@@ -49,11 +49,12 @@
     DargViewController *dragView = [[DargViewController alloc]init];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:dragView];
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.window.rootViewController = nav;
+//        self.window.rootViewController = [[MainController alloc]init];
+         self.window.rootViewController = nav;
     } else {
         self.window.rootViewController = dragView;
     }
-    
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
     OBDragDropManager *manager = [OBDragDropManager sharedManager];

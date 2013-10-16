@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "OBDragDrop.h"
 
-@interface DargViewController : UIViewController<OBOvumSource, OBDropZone,UITableViewDataSource,UITableViewDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
+@interface DargViewController : UIViewController<OBOvumSource, OBDropZone,UITableViewDataSource,UITableViewDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,UIScrollViewDelegate>
 
-@property (strong,nonatomic) UITableView *myTableView;
+@property (retain,nonatomic) UITableView *myTableView;
 @property (retain,nonatomic) NSArray *dataArray;
-@property (strong ,nonatomic) UIImagePickerController *imagePicker;
+@property (assign)BOOL isOpen;
+@property (nonatomic,retain)NSIndexPath *selectIndex;
 @end
